@@ -1,5 +1,5 @@
-name = "your-project-name"
-account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+name = "cloudflare-worker-starter"
+account_id = "1253e57e06f689fe2f6467e7288d2fdd"
 main = "src/worker.js"
 workers_dev = true
 compatibility_date = "2025-06-27"
