@@ -50,15 +50,15 @@ TURNSTILE_SECRET_KEY = "your-turnstile-secret-key"  # Optional for contact form
 
 # KV Namespaces (create these in Cloudflare dashboard first)
 [[kv_namespaces]]
-id = "YOUR_SESSIONS_KV_ID"
+id = "ca407ffa755441f087e1ed10c91a228b"
 binding = "SESSIONS"
 
 [[kv_namespaces]]
-id = "YOUR_USERS_KV_ID"
+id = "df64e3ecfa9a4bfc976451348d59611b"
 binding = "USERS"
 
 [[kv_namespaces]]
-id = "YOUR_AUDIT_KV_ID"
+id = "cbadea7bd611453784428a727ab600c2"
 binding = "AUDIT"
 
 # Add more KV namespaces as needed
